@@ -1,0 +1,44 @@
+body {
+    background: white;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(0,0,0,0.87);
+    text-decoration: underline;
+}
+
+ul.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 14px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.left {
+    padding-left: 18.7px;
+	flex: 1;
+  }
+
+.right {
+    padding-right: 18.7px;
+  }
